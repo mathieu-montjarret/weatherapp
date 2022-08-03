@@ -1,0 +1,126 @@
+body{
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    font-size: 3em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+[contenteditable] {
+    outline: 0px solid transparent;
+  }
+
+.tooltip{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    color: #fff;
+    background-color: #222;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+    transition: opacity .3s, top .5s;
+}
+
+h1:hover .tooltip{
+    top: -50px;
+    opacity: 1;
+}
+
+button{
+    margin-top: 30px;
+    width: min-content;
+    font-size: large;
+    background: transparent;
+    border: 2px solid black;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    outline: none;
+}
+
+button:hover{
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+
+i.wi{
+    font-size: 4em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+.thunderstorm{
+    background-image: url(img/thunderstorm.jpg);
+}
+
+.drizzle{
+    background-image: url(img/drizzle.jpg);
+}
+
+.rain{
+    background-image: url(img/rain.jpg);
+}
+
+.snow{
+    background-image: url(img/snow.jpg)
+}
+
+.mist{
+    background-image: url(img/mistandfog.jpg);
+}
+
+.haze{
+    background-image: url(img/hazesmokeanddust.jpg);
+}
+
+.smoke{
+    background-image: url(img/hazesmokeanddust.jpg);
+}
+
+.dust{
+    background-image: url(img/hazesmokeanddust.jpg);
+}
+
+.fog{
+    background-image: url(img/mistandfog.jpg);
+}
+
+.sand{
+    background-image: url(img/sand.jpg);
+}
+
+.ash{
+    background-image: url(img/ash.jpg);
+}
+
+.squall{
+    background-image: url(img/squall.jpg);
+}
+
+.tornado{
+    background-image: url(img/tornado.jpg);
+}
+
+.clear{
+    background-image: url(img/clear.jpg);
+}
+
+.clouds{
+    background-image: url(img/clouds.jpg);
+}
